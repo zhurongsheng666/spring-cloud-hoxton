@@ -1,10 +1,10 @@
 package com.payment.controller;
 
-import com.payment.consts.ResponseResultConsts;
-import com.payment.po.PaymentPo;
 import com.payment.service.PaymentService;
+import consts.ResponseResultConsts;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import po.PaymentPo;
 
 
 /**

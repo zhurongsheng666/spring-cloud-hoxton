@@ -1,10 +1,10 @@
 package com.payment.service;
 
 import com.payment.mapper.PaymentMapper;
-import com.payment.po.PaymentPo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import po.PaymentPo;
 
 /**
  * @Description:

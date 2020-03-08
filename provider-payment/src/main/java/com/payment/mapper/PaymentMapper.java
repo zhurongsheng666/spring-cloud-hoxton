@@ -1,7 +1,7 @@
 package com.payment.mapper;
 
-import com.payment.po.PaymentPo;
 import org.apache.ibatis.annotations.Mapper;
+import po.PaymentPo;
 import tk.mybatis.mapper.common.BaseMapper;
 
 /**
