@@ -1,12 +1,12 @@
-package com.payment.po;
+package po;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.apache.ibatis.annotations.Options;
+
+import javax.persistence.Table;
 
 import javax.persistence.*;
-
 /**
  * @Description: 流水号
  * @Auther: zhurongsheng
@@ -23,7 +23,7 @@ public class PaymentPo {
      */
     @Id
     @Column(name = "n_id")
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer id;
 
     /**
