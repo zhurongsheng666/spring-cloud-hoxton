@@ -1,4 +1,4 @@
-package com.payment.consts;
+package consts;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
