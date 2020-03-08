@@ -12,6 +12,8 @@
         <module>provider-payment</module>
         <module>customer-order</module>
         <module>commons</module>
+        <module>eureka-server</module>
+        <module>eureka-server-slave</module>
     </modules>
 
     <properties>
