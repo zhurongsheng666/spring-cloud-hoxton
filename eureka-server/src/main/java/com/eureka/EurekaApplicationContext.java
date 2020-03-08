@@ -1,18 +1,18 @@
-package com.order;
+package com.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @Description:
  * @Auther: zhurongsheng
- * @Date: 2020/3/8 16:07
+ * @Date: 2020/3/8 22:24
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class OrderApplicationContext {
+@EnableEurekaServer
+public class EurekaApplicationContext {
     public static void main(String[] args) {
-        SpringApplication.run(OrderApplicationContext.class);
+        SpringApplication.run(EurekaApplicationContext.class);
     }
 }
