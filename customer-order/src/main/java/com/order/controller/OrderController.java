@@ -19,7 +19,7 @@ public class OrderController {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String BASE_PAYMENT_URL="http://localhost:9000/payment/";
+    private static final String BASE_PAYMENT_URL="http://provider-payment-service/payment/";
 
 
     @GetMapping("/{id}")
