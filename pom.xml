@@ -14,6 +14,7 @@
         <module>commons</module>
         <module>eureka-server</module>
         <module>eureka-server-slave</module>
+        <module>provider-payment-slave</module>
     </modules>
 
     <properties>
