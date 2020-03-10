@@ -15,6 +15,8 @@
         <module>eureka-server</module>
         <module>eureka-server-slave</module>
         <module>provider-payment-slave</module>
+        <module>zk-provider</module>
+        <module>zk-customer</module>
     </modules>
 
     <properties>
