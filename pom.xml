@@ -17,6 +17,8 @@
         <module>provider-payment-slave</module>
         <module>zk-provider</module>
         <module>zk-customer</module>
+        <module>consul-provider</module>
+        <module>consul-customer</module>
     </modules>
 
     <properties>
