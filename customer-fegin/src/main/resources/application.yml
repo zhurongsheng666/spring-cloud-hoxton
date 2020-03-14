@@ -1,0 +1,33 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: fegin-client
+
+
+
+eureka:
+  client:
+    #是否将自己注册到EurekaServer
+    register-with-eureka: true
+    #是否从EurekaServer获取已有的注册服务
+    fetch-registry: true
+    #注册地址
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+  instance:
+    instance-id: fegin-client
+    prefer-ip-address: true
+
+
+ribbon:
+  #处理请求的超时时间，默认为1秒
+  ReadTimeout: 4000
+  #连接建立的超时时长，默认1秒
+  ConnectTimeout: 1000
+
+
+logging:
+  level:
+    com.fegin.service.FeginService: debug

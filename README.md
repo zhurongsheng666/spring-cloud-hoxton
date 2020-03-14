@@ -12,4 +12,8 @@
   (1) consul-provider端口：7003           
   (2) consul-customer：8002          
 # 5 Ribbon-enviroment-release-v1.0
-                                                           
+
+# 6 OpenFegin-enviroment-release-v1.0
+  (1) customer-fegin 8003                
+  
+                                           
