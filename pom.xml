@@ -19,6 +19,7 @@
         <module>zk-customer</module>
         <module>consul-provider</module>
         <module>consul-customer</module>
+        <module>customer-fegin</module>
     </modules>
 
     <properties>

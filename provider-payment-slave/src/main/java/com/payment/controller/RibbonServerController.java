@@ -8,13 +8,22 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/ribbon")
 public class RibbonServerController {
- 
+
     @Value("${server.port}")
+
     private String port;
-
-
     @GetMapping("/server")
     public String server(){
         return "ribbon server port is "+port;
+    }
+
+    @GetMapping("/threeseconds")
+    public String threeseconds(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "hello word";
     }
 }
