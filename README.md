@@ -10,4 +10,6 @@
   (2) zk-customer端口:8001     
 # 4 Consul-enviroment-release-v1.0
   (1) consul-provider端口：7003           
-  (2) consul-customer：8002                                                                     
+  (2) consul-customer：8002          
+# 5 Ribbon-enviroment-release-v1.0
+                                                           
