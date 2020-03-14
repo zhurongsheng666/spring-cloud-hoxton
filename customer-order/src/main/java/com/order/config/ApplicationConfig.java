@@ -1,5 +1,8 @@
 package com.order.config;
 
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
+import org.omg.CORBA.PUBLIC_MEMBER;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,4 +22,8 @@ public class ApplicationConfig {
         return new RestTemplate();
     }
 
+    @Bean
+    public IRule  rule(){
+        return new RandomRule();
+    }
 }
