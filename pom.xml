@@ -20,6 +20,9 @@
         <module>consul-provider</module>
         <module>consul-customer</module>
         <module>customer-fegin</module>
+        <module>provider-hystrix</module>
+        <module>customer-hystrix</module>
+        <module>hystrix-dashboard-web</module>
     </modules>
 
     <properties>

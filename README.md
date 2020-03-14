@@ -10,10 +10,13 @@
   (2) zk-customer端口:8001     
 # 4 Consul-enviroment-release-v1.0
   (1) consul-provider端口：7003           
-  (2) consul-customer：8002          
+  (2) consul-customer端口：8002          
 # 5 Ribbon-enviroment-release-v1.0
 
 # 6 OpenFegin-enviroment-release-v1.0
-  (1) customer-fegin 8003                
+  (1) customer-fegin端口: 8003                
   
-                                           
+# 7 Hystrix-enviroment-release-v1.0  
+  (1) provider-hystrix端口: 7004                       
+  (2) customer-hystrix端口: 8004                      
+  (3) hystrix-dashboard-web端口：9001                           
