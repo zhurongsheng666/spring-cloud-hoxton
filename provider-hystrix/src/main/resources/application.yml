@@ -1,0 +1,19 @@
+server:
+  port: 7004
+
+spring:
+  application:
+    name: provider-hystrix
+
+eureka:
+  client:
+    #是否将自己注册到EurekaServer
+    register-with-eureka: true
+    #是否从EurekaServer获取已有的注册服务
+    fetch-registry: true
+    #注册地址
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+  instance:
+    instance-id: provider-hystrix
+    prefer-ip-address: true
