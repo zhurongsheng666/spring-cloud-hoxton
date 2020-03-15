@@ -23,6 +23,7 @@
         <module>provider-hystrix</module>
         <module>customer-hystrix</module>
         <module>hystrix-dashboard-web</module>
+        <module>gateway-cloud</module>
     </modules>
 
     <properties>

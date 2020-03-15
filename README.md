@@ -19,4 +19,7 @@
 # 7 Hystrix-enviroment-release-v1.0  
   (1) provider-hystrix端口: 7004                       
   (2) customer-hystrix端口: 8004                      
-  (3) hystrix-dashboard-web端口：9001                           
+  (3) hystrix-dashboard-web端口：9001                          
+  
+# 8 Gateway-enviroment-release-v1.0  
+  (1) gateway-cloud端口: 9002                                    
