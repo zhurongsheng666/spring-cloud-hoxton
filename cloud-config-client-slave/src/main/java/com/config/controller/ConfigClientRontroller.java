@@ -25,4 +25,3 @@ public class ConfigClientRontroller {
         return "server port："+port+",info："+info;
     }
 }
-

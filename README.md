@@ -28,5 +28,8 @@
   (1) springcloud-config                                    
   (2) cloud-config-center端口：9003                                                      
   (3) cloud-config-client端口: 9004     
+
+# 10 Bus-enviroment-release-v1.0  
+  (1) cloud-config-client-slave端口: 9005
   
                             
