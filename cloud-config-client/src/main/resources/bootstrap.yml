@@ -1,0 +1,38 @@
+server:
+  port: 9004
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    # 配置拼接：http://localhost:9003/Config-enviroment-release-v1.0/config-dev
+    config:
+      #分支
+      label: Config-enviroment-release-v1.0
+      #配置文件名称
+      name: config
+      #读取后缀名称
+      profile: dev
+      #配置中心地址
+      uri: http://localhost:9003
+
+
+eureka:
+  client:
+    #是否将自己注册到EurekaServer
+    register-with-eureka: true
+    #是否从EurekaServer获取已有的注册服务
+    fetch-registry: true
+    #注册地址
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+  instance:
+    instance-id: config-client
+    prefer-ip-address: true
+
+# 暴露监控端点
+management:
+ endpoints:
+   web:
+     exposure:
+       include: "*"

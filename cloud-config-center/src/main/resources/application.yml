@@ -1,0 +1,31 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: config-center
+  cloud:
+    config:
+      server:
+        git:
+          #配置github
+          uri: https://github.com/zhurongsheng666/spring-cloud-hoxton.git
+          #配置搜索目录
+          search-paths:
+            - springcloud-config
+      #配置分支
+      label: Config-enviroment-release-v1.0
+
+eureka:
+  client:
+    #是否将自己注册到EurekaServer
+    register-with-eureka: true
+    #是否从EurekaServer获取已有的注册服务
+    fetch-registry: true
+    #注册地址
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+  instance:
+    instance-id: config-center
+    prefer-ip-address: true
+

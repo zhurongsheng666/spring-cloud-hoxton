@@ -22,4 +22,11 @@
   (3) hystrix-dashboard-web端口：9001                          
   
 # 8 Gateway-enviroment-release-v1.0  
-  (1) gateway-cloud端口: 9002                                    
+  (1) gateway-cloud端口: 9002          
+  
+# 9 Config-enviroment-release-v1.0   
+  (1) springcloud-config                                    
+  (2) cloud-config-center端口：9003                                                      
+  (3) cloud-config-client端口: 9004     
+  
+                            
