@@ -39,7 +39,7 @@
         <javax.version>2.1.0</javax.version>
         <log4j.version>1.2.17</log4j.version>
         <lombok.version>1.18.6</lombok.version>
-        <mysql.version>8.0.11</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <druid.verison>1.1.16</druid.verison>
         <mybatis.spring.boot.verison>1.3.1</mybatis.spring.boot.verison>
         <tk.mybatis.verison>2.1.5</tk.mybatis.verison>
